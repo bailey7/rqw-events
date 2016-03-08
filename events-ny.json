@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Drinkup for shelters",
+    "date": "2016/02/28",
+    "address": "7609 Oak Avenue - Cartersville, GA 30120",
+    "price": 0,
+    "picture": "http://placehold.it/350x150",
+    "category": "adoption"
+  },
+  {
+    "title": "Walk for Charlie",
+    "date": "2016/02/28",
+    "address": "7609 Oak Avenue - Cartersville, GA 30120",
+    "price": 0,
+    "picture": "http://placehold.it/350x150",
+    "category": "walk"
+  },
+  {
+    "title": "Brews for bullies",
+    "date": "2016/02/28",
+    "address": "7609 Oak Avenue - Cartersville, GA 30120",
+    "price": 0,
+    "picture": "http://placehold.it/350x150",
+    "category": "party"
+  },
+  {
+    "title": "Adopt a mut",
+    "date": "2016/02/28",
+    "address": "7609 Oak Avenue - Cartersville, GA 30120",
+    "price": 0,
+    "picture": "http://placehold.it/350x150",
+    "category": "adoption"
+  },
+  {
+    "title": "Wine for cats",
+    "date": "2016/02/28",
+    "address": "7609 Oak Avenue - Cartersville, GA 30120",
+    "price": 0,
+    "picture": "http://placehold.it/350x150",
+    "category": "party"
+  }
+]
