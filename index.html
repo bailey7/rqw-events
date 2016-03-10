@@ -21,107 +21,105 @@
 
             <template id="event-template">
               <li>
-                            <time datetime="2016-04-10">
-                                <span class="day">10</span>
-                                <span class="month">Apr</span>
-                            </time>
-                            <img alt="{{title}}" src="{{picture}}" />
-                            <div class="info">
-                                <h2 class="title">{{title}}</h2>
-                                <h2 class="time">10am-5pm</h2>
-                                <h2 class="address">Union Square, NYC</h2>
-                                <p class="desc">{{description}}</p>
-                                <p class="price">Price:{{price}}</p>
-                                <p class="category">{{category}}</p>
-                            </div>
-                        </li>
+                <time datetime="2016-04-10">
+                  <span class="day">10</span>
+                  <span class="month">Apr</span>
+                </time>
+                <img alt="{{title}}" src="{{picture}}" />
+                <div class="info">
+                  <h2 class="title">{{title}}</h2>
+                  <h2 class="time">10am-5pm</h2>
+                  <h2 class="address">Union Square, NYC</h2>
+                  <p class="desc">{{description}}</p>
+                  <p class="price">Price:{{price}}</p>
+                  <p class="category">{{category}}</p>
+                </div>
+              </li>
             </template>
 
 
             <h1>NEW YORK</h1>
-             <ul id="buttons" style="padding-left: 0px;"> 
+             <ul id="buttons" style="padding-left: 0px;">
                 <button type="button" class="btn btn-default btn-lg">VIEW ALL</button>
                 <button type="button" class="btn btn-default btn-lg">ADOPTION</button>
                 <button type="button" class="btn btn-default btn-lg">PARTY
                 </button>
                 <button type="button" class="btn btn-default btn-lg">CHARITY WALK</button>
-                <button type="button" class="btn btn-default btn-lg" style="background-color: grey;"><a href="file:///Users/baileyschroeder/Desktop/projects/rqw-events/submit-event.html">SUBMIT AN EVENT</a></button>
+                <button type="button" class="btn btn-default btn-lg" style="background-color: grey;">
+                  <a href="submit-event.html">SUBMIT AN EVENT</a>
+                </button>
             </ul>
 
-            <ul id="events">
-            
-
-        <div class="container">
-            <div class="row">
-                <div class="[ col-xs-12 col-sm-offset-2 col-sm-8 ]">
+              <div class="container">
+                <div class="row">
+                  <div class="col-xs-12 col-sm-offset-2 col-sm-8">
                     <ul class="event-list">
+                      <li>
+                        <time datetime="2016-04-10">
+                          <span class="day">10</span>
+                          <span class="month">Apr</span>
+                        </time>
+                        <img alt="Adoptapalooza" src="http://www.animalalliancenyc.org/images/Banner-Adoptapalooza2015US2-300.png" />
+                        <div class="info">
+                          <h2 class="title">Adoptapalooza</h2>
+                          <h2 class="time">10am-5pm</h2>
+                          <h2 class="address">Union Square, NYC</h2>
+                          <p class="desc">Join the Mayor's Alliance for NYC's Animals for Adoptapalooza, NYC's original mega pet adoption event!</p>
+                          <p class="price">Price: FREE</p>
+                          <p class="category">Adoption</p>
+                        </div>
+                      </li>
+
+                      <li>
+                        <time datetime="2016-04-10">
+                          <span class="day">10</span>
+                          <span class="month">Apr</span>
+                        </time>
+                        <img alt="Adoptapalooza" src="http://www.animalalliancenyc.org/images/Banner-Adoptapalooza2015US2-300.png" />
+                        <div class="info">
+                          <h3 class="title media-heading">{{title}}</h3>
+                          <time>{{time}}</time>
+                          <address>{{address}}</address>
+                          <description>{{desc}}</description>
+                          <div class="price">{{price}}</div>
+                          <div class="category">{{category}}</div>
+                        </div>
+                      </li>
+
+                      <li>
+                        <time datetime="2016-04-10">
+                          <span class="day">10</span>
+                          <span class="month">Apr</span>
+                        </time>
+                        <img alt="Adoptapalooza" src="http://www.animalalliancenyc.org/images/Banner-Adoptapalooza2015US2-300.png" />
+                        <div class="info">
+                          <h3 class="title media-heading">{{title}}</h3>
+                          <time>{{time}}</time>
+                          <address>{{address}}</address>
+                          <description>{{desc}}</description>
+                          <div class="price">{{price}}</div>
+                          <div class="category">{{category}}</div>
+                        </li>
+
                         <li>
-                            <time datetime="2016-04-10">
-                                <span class="day">10</span>
-                                <span class="month">Apr</span>
-                            </time>
-                            <img alt="Adoptapalooza" src="http://www.animalalliancenyc.org/images/Banner-Adoptapalooza2015US2-300.png" />
-                            <div class="info">
-                                <h2 class="title">Adoptapalooza</h2>
-                                <h2 class="time">10am-5pm</h2>
-                                <h2 class="address">Union Square, NYC</h2>
-                                <p class="desc">Join the Mayor's Alliance for NYC's Animals for Adoptapalooza, NYC's original mega pet adoption event!</p>
-                                <p class="price">Price: FREE</p>
-                                <p class="category">Adoption</p>
-                            </div>
+                          <time datetime="2016-04-10">
+                            <span class="day">10</span>
+                            <span class="month">Apr</span>
+                          </time>
+                          <img alt="Adoptapalooza" src="http://www.animalalliancenyc.org/images/Banner-Adoptapalooza2015US2-300.png" />
+                          <div class="info">
+                            <h3 class="title media-heading">{{title}}</h3>
+                            <time>{{time}}</time>
+                            <address>{{address}}</address>
+                            <description>{{desc}}</description>
+                            <div class="price">{{price}}</div>
+                            <div class="category">{{category}}</div>
+                          </div>
                         </li>
-
-                          <li>
-                            <time datetime="2016-04-10">
-                                <span class="day">10</span>
-                                <span class="month">Apr</span>
-                            </time>
-                            <img alt="Adoptapalooza" src="http://www.animalalliancenyc.org/images/Banner-Adoptapalooza2015US2-300.png" />
-                            <div class="info">
-                                <h3 class="title media-heading">{{title}}</h3>
-                                <time>{{time}}</time>
-                                <address>{{address}}</address>
-                                <description>{{desc}}</description>
-                                <div class="price">{{price}}</div>
-                                <div class="category">{{category}}</div>
-                            </div>
-                        </li>
-
-                          <li>
-                            <time datetime="2016-04-10">
-                                <span class="day">10</span>
-                                <span class="month">Apr</span>
-                            </time>
-                            <img alt="Adoptapalooza" src="http://www.animalalliancenyc.org/images/Banner-Adoptapalooza2015US2-300.png" />
-                            <div class="info">
-                                <h3 class="title media-heading">{{title}}</h3>
-                                <time>{{time}}</time>
-                                <address>{{address}}</address>
-                                <description>{{desc}}</description>
-                                <div class="price">{{price}}</div>
-                                <div class="category">{{category}}</div>
-                        </li>
-
-                          <li>
-                            <time datetime="2016-04-10">
-                                <span class="day">10</span>
-                                <span class="month">Apr</span>
-                            </time>
-                            <img alt="Adoptapalooza" src="http://www.animalalliancenyc.org/images/Banner-Adoptapalooza2015US2-300.png" />
-                            <div class="info">
-                                <h3 class="title media-heading">{{title}}</h3>
-                                <time>{{time}}</time>
-                                <address>{{address}}</address>
-                                <description>{{desc}}</description>
-                                <div class="price">{{price}}</div>
-                                <div class="category">{{category}}</div>
-                            </div>
-                        </li>
-                    </ul>
+                      </ul>
+                    </div>
+                  </div>
                 </div>
-            </div>
-        </div>
-</ul>
 
             <script src="bower_components/jquery/dist/jquery.js"></script>
             <script src="bower_components/handlebars/handlebars.js"></script>
