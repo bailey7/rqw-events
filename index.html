@@ -20,20 +20,21 @@
             <![endif]-->
 
             <template id="event-template">
-              <li class="event media">
-                <div class="media-left">
-                  <img class="media-object" src="{{picture}}" alt="">
-                </div>
-                <div class="media-body">
-                  <h3 class="title media-heading">{{title}}</h3>
-                    <date>{{date}}</date>
-                  <time>{{time}}</time>
-                  <address>{{address}}</address>
-                  <description>{{desc}}</description>
-                  <div class="price">{{price}}</div>
-                  <div class="category">{{category}}</div>
-                </div>
-              </li>
+              <li>
+                            <time datetime="2016-04-10">
+                                <span class="day">10</span>
+                                <span class="month">Apr</span>
+                            </time>
+                            <img alt="{{title}}" src="{{picture}}" />
+                            <div class="info">
+                                <h2 class="title">{{title}}</h2>
+                                <h2 class="time">10am-5pm</h2>
+                                <h2 class="address">Union Square, NYC</h2>
+                                <p class="desc">{{description}}</p>
+                                <p class="price">Price:{{price}}</p>
+                                <p class="category">{{category}}</p>
+                            </div>
+                        </li>
             </template>
 
 
