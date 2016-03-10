@@ -1,15 +1,18 @@
 [
   {
-    "title": "Drinkup for shelters",
-    "date": "2016/02/28",
+    "title": "Adoptapalooza",
+    "date": "2016-02-28",
+    "venue": "Awesome Studium",
     "address": "7609 Oak Avenue - Cartersville, GA 30120",
     "price": 0,
-    "picture": "http://placehold.it/350x150",
+    "description": "A pun on Lollapalooza but for adoption",
+    "picture": "http://www.animalalliancenyc.org/images/Banner-Adoptapalooza2015US2-300.png",
     "category": "adoption"
   },
   {
     "title": "Walk for Charlie",
     "date": "2016/02/28",
+    "venue": "Awesome Studium",
     "address": "7609 Oak Avenue - Cartersville, GA 30120",
     "price": 0,
     "picture": "http://placehold.it/350x150",
