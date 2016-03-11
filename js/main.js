@@ -1,10 +1,9 @@
 $(document).ready(function(){
     eventTemplate = Handlebars.compile($('#event-template').html());
-
     $.ajax('events-ny.json').done(function(data){
         $eventList = $('.event-list');
         data.forEach(function(event){
-            console.log(date);
+            console.log(event);
             if (event.price === 0) { event.price = 'FREE'; }
             if (event.venue) {
                 event.whereabouts = event.venue;
@@ -15,3 +14,5 @@ $(document).ready(function(){
         });
     });
 });
+
+
